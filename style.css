@@ -1,0 +1,39 @@
+body {
+    background: #0C0F19;
+}
+
+.card-container {
+    margin-top: 300px;
+}
+
+span {
+    color: #A966D3;
+}
+
+
+.side-1 {
+    background: #1A1830;
+}
+
+.side-1-description {
+    line-height: 1.7rem;
+}
+
+.side-2-image {
+    background-image: url(images/image-header-desktop.jpg);
+    height: 350px;
+}
+
+.opacity {
+    opacity: 0.7;
+    background: rgb(162, 92, 206);
+    height: 351px;
+    margin-left: -12px;
+    width: 104%;
+}
+
+@media only screen and (max-width: 600px) {
+    .opacity {
+        width: 105%;
+    }
+}
